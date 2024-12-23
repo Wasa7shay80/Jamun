@@ -25,10 +25,10 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002296449181"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "7040944963"))
 
 #Port
-PORT = os.environ.get("PORT", "2020")
+PORT = os.environ.get("PORT", "2090")
 
 #Database 
-DB_URI = "mongodb+srv://Juicebot:Akshay8080@juicebot.7k41y.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://Drink:Drink8080@drink.s4spo.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
