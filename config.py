@@ -28,11 +28,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7040944963"))
 PORT = os.environ.get("PORT", "2020")
 
 #Database 
-DB_URI = "mongodb+srv://Snappyy:akshay@snappyy.mrfk9.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://Juicebot:Akshay8080@juicebot.7k41y.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "5a5da237dba4e17fdec6b5c1c4a396d02949eace")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "7c120a97aaada9f94faea31dad475a1e030c10e2")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 84600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
