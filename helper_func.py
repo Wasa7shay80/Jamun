@@ -8,7 +8,7 @@ from pyrogram.enums import ChatMemberStatus
 from config import FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL2, ADMINS
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from pyrogram.errors import FloodWait
-from shortzy import 
+from shortzy import shortzy
 import requests
 import time
 from datetime import datetime
